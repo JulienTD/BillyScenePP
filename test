@@ -1,0 +1,4 @@
+#!/bin/sh
+make fclean && make && make example && ./a.out
+
+#valgrind --leak-check=full --show-leak-kinds=all
